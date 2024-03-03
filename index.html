@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <meta name="description" content="Rock, Paper, Scissors, Lizard, Spock game in HTML, CSS, JavaScript">
     <link rel="stylesheet" href="assets/CSS/style.css">
     <title>Rock Paper Scissors Lizard Spock</title>
@@ -13,11 +13,19 @@
     <div class="container">
         <h1>Rock Paper Scissors Lizard Spock</h1>
         
-            <form id="playerinput">Player input
+            <form id="playerinput">
+                <label for="playerName">Enter your name:</label>   
+                <input type="text" id="playerName">
+                <input type="reset"  id="reset" value="Reset">
             </form>
         
         <div id="game">Game Area
             <div id="choices">
+                <button  aria-label="Rock" class="choice" ><i class="fa-solid fa-hand-back-fist fa-lg" ></i></button>
+                <button  aria-label="Paper" class="choice" ><i class="fa-solid fa-hand fa-lg" ></i></button>
+                <button  aria-label="Scissors" class="choice" ><i class="fa-solid fa-hand-scissors fa-lg" ></i></button>
+                <button  aria-label="Lizard" class="choice" ><i class="fa-solid fa-hand-lizard fa-lg" ></i></button>
+                <button  aria-label="Spock" class="choice" ><i class="fa-solid fa-hand-spock fa-lg" ></i></button>
 
             </div>
             <div id="result">Result</div>
