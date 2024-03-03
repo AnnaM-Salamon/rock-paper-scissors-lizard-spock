@@ -21,16 +21,16 @@
         
         <div id="game">
             <div id="choices">
-                <button  aria-label="Rock" class="choice" ><i class="fa-solid fa-hand-back-fist fa-lg" style="color: #1D233F"></i></button>
-                <button  aria-label="Paper" class="choice" ><i class="fa-solid fa-hand fa-lg" style="color: #1D233F"></i></button>
-                <button  aria-label="Scissors" class="choice" ><i class="fa-solid fa-hand-scissors fa-lg" style="color: #1D233F"></i></button>
-                <button  aria-label="Lizard" class="choice" ><i class="fa-solid fa-hand-lizard fa-lg" style="color: #1D233F"></i></button>
-                <button  aria-label="Spock" class="choice" ><i class="fa-solid fa-hand-spock fa-lg" style="color: #1D233F"></i></button>
+                <button  aria-label="Rock" class="choice" onclick="play('rock')"><i class="fa-solid fa-hand-back-fist fa-lg" style="color: #1D233F"></i></button>
+                <button  aria-label="Paper" class="choice" onclick="play('paper')"><i class="fa-solid fa-hand fa-lg" style="color: #1D233F"></i></button>
+                <button  aria-label="Scissors" class="choice" onclick="play('scissors')"><i class="fa-solid fa-hand-scissors fa-lg" style="color: #1D233F"></i></button>
+                <button  aria-label="Lizard" class="choice" onclick="play('lizard')"><i class="fa-solid fa-hand-lizard fa-lg" style="color: #1D233F"></i></button>
+                <button  aria-label="Spock" class="choice" onclick="play('spock')"><i class="fa-solid fa-hand-spock fa-lg" style="color: #1D233F"></i></button>
 
             </div>
             <div id="result"></div>
             <div id="scores"><span id="playerNameScore"> 0</span> - <span id="computerScore">0</span></div>
-            <div id="choiceMade"><span id="playerNameChoice"> Player</span> | <span id="computerChoice">Computer</span></div>
+            <div id="choiceMade"><span id="playerNameChoice"> </span> | <span id="computerChoice"></span></div>
         </div>
     </div>
 
