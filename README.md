@@ -1,5 +1,15 @@
-# Love Maths
+# Rock Paper Scissors Lizard Spock
+Rock Paper Scissors Lizard Spock is a game ...
 
+
+
+-- what it aims to acomplish
+
+
+-- who is the target audience 
+
+
+-- how it will benefit the target audience
 
 
 
@@ -9,47 +19,52 @@
 
 ### Existing Features
 
-- __The Love Maths Logo and Heading__
+
+- __Header__
 
 
 
+
+- __The Player Input__
+
++ Player Name
++ Reset Button
+
+  
 
 - __The Game Area__
 
-  
 
-- __The Question section__
-
-  
-
-
-- __The Score Area__
++  Possible Choices
++ Results
++ Score
++ The Choices  made by Player and Computer
 
  
 
 ### Features Left to Implement
 
+I woant to add a timer to allow users to play against the clock. Timer with the ability to select the time length in seconds and minutes. Such a feature would allow the players to decide the length of the session. For instance, adapting the decision to the user's own needs (time constraints).
+The game will become more attractive and the participants motivation will increase as they want to win before the allotted time expires.
+
 
 
 ## Testing 
 
-I
+
 
 ### Validator Testing 
 
 - HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-- JavaScript
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+- JavaScriopt
     - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
-      - The following metrics were returned: 
-      - There are 11 functions in this file.
-      - Function with the largest signature takes 2 arguments, while the median is 0.
-      - Largest function has 10 statements in it, while the median is 3.
-      - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+      
+### Unfixed bugs
 
-### Unfixed Bugs
+No unfixed bugs
 
 
 ## Deployment
@@ -61,19 +76,28 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-maths/
+The live link can be found here - 
 
 
 ## Credits 
-
-
 ### Content 
 
 
+-  You Tube ..... https://www.youtube.com/watch?v=ec8vSKJuZTk
+-  tutorials from https://developer.mozilla.org/en-US/, https://www.w3schools.com/, https://www.udemy.com/course/the-web-developer-bootcamp/
+
+
+
+
+- The icons in The Game are are taken from [Font Awesome](https://fontawesome.com/)
+-  Colours contrast to improve SEO https://colourcontrast.cc/, 
+
 ### Media
 
+No use of photos or images in the project.
 
-## Other General Project Advice
+
+
 
 
 
