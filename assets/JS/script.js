@@ -40,8 +40,8 @@ function updatePlayerName() {
           computerScore++;
        }
    
-       document.getElementById("playerNameScore").innerHTML = `${playerChoice}`;
-       document.getElementById("computerScore").innerHTML = `${computerChoice}`;
+       document.getElementById("playerNameScore").innerHTML = `${playerScore}`;
+       document.getElementById("computerScore").innerHTML = `${computerScore}`;
    }
    
    // results based on player versus computer choice
