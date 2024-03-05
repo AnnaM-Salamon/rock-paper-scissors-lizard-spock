@@ -44,7 +44,7 @@ Rock Paper Scissors Lizard Spock is a game ...
 
 ### Features Left to Implement
 
-I woant to add a timer to allow users to play against the clock. Timer with the ability to select the time length in seconds and minutes. Such a feature would allow the players to decide the length of the session. For instance, adapting the decision to the user's own needs (time constraints).
+I want to add a timer to allow users to play against the clock. Timer with the ability to select the time length in seconds and minutes. Such a feature would allow the players to decide the length of the session. For instance, adapting the decision to the user's own needs (time constraints).
 The game will become more attractive and the participants motivation will increase as they want to win before the allotted time expires.
 
 
@@ -56,7 +56,7 @@ The game will become more attractive and the participants motivation will increa
 ### Validator Testing 
 
 - HTML
-    - No errors were returned when passing through the official [W3C validator]https://validator.w3.org/nu/?doc=https%3A%2F%2Fannam-salamon.github.io%2Frock-paper-scissors-lizard-spock%2F) 
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fannam-salamon.github.io%2Frock-paper-scissors-lizard-spock%2F) 
 - CSS
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 - JavaScriopt
@@ -77,7 +77,7 @@ This section should describe the process you went through to deploy the project 
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - 
-
+https://annam-salamon.github.io/rock-paper-scissors-lizard-spock/
 
 ## Credits 
 ### Content 
