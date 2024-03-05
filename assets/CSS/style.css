@@ -1,5 +1,6 @@
 /* global style*/
 body {
+    display: flex;
     font-family:Arial, Helvetica, sans-serif;
     background-color: #55b5b1;
     margin: 0;
@@ -13,25 +14,20 @@ body {
     }
     h1 {
         color: #2e0000;
-        padding: 20px;
     }
 
     /* player input*/
     #playerinput {
         font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
         background-color: #dadf5b;
-        display: flex;
-        flex-basis: content;
         border-radius: 10px;
         margin-bottom: 40px;
         padding: 20px;
-        text-align: left;
         box-shadow: 0 0 50px #271b1bf2;
         
     }
     #reset {
-        font-family: Arial, Helvetica, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       background-color: #d1e5a6;
       border-radius: 5px;
     }
@@ -51,7 +47,7 @@ body {
 .choice {
     margin: 5px;
     padding: 10px 20px;
-    font-size: 60px;
+    font-size: 50px;
     cursor: pointer;
     background-color:#baf5f8;
     border:none;
@@ -69,17 +65,19 @@ body {
     margin-top: 20px;
 }
 #scores {
-    font-size: 18px;
+font-size: 20px;
 margin-top: 20px;
+border-radius: 5px;
 background-color:floralwhite
 }
 #choiceMade {
     margin-top: 10px;
     font-size: 20px;
+    font-weight: bolder;
     font-style: italic;
     background-color: #f8e0ad;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 20px #271b1bf2;;
+    box-shadow: 0 20px 20px #271b1bf2;;
 }
     
