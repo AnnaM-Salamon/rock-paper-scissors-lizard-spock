@@ -12,7 +12,7 @@ Rock Paper Scissors Lizard Spock is a game ...
 -- how it will benefit the target audience
 
 
-
+![Responsice Mockup](Game/rock_paper_scissors_lizard_spock_mockup.png)
 
 ## Features 
 
@@ -21,6 +21,7 @@ Rock Paper Scissors Lizard Spock is a game ...
 
 
 - __Header__
+![Logo](Game/rock_paper_scissors_lizard_spock_logo.png)
 
 
 
@@ -30,12 +31,14 @@ Rock Paper Scissors Lizard Spock is a game ...
 + Player Name
 + Reset Button
 
+![Player input](Game/roock_paper_scissors_lizard_spock_player_input.png)
   
 
 - __The Game Area__
 
+![Game area](Game/rock_paper_scissors_lizard_spock_game_area.png)
 
-+  Possible Choices
++ Possible Choices
 + Results
 + Score
 + The Choices  made by Player and Computer
@@ -52,6 +55,17 @@ The game will become more attractive and the participants motivation will increa
 ## Testing 
 
 
+![Lighthouse testing](Game/lighthouse_1.png)
+
+
+
+![Lighthouse testing](Game/lighthouse_2.png)
+
+
+
+![Lighthouse testing](Game/lighthouse_3.png)
+
+
 
 ### Validator Testing 
 
@@ -61,6 +75,8 @@ The game will become more attractive and the participants motivation will increa
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 - JavaScriopt
     - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+
+    ![JS validator](Game/js_validator-r_p_s_l_s.png)
       
 ### Unfixed bugs
 
@@ -80,21 +96,23 @@ The live link can be found here -
 https://annam-salamon.github.io/rock-paper-scissors-lizard-spock/
 
 ## Credits 
+
+
 ### Content 
 
 
--  You Tube ..... https://www.youtube.com/watch?v=ec8vSKJuZTk
--  tutorials from https://developer.mozilla.org/en-US/, https://www.w3schools.com/, https://www.udemy.com/course/the-web-developer-bootcamp/
+-  Ideas on how to start project from You Tube  https://www.youtube.com/watch?v=ec8vSKJuZTk
+-  Tutorials  on JavaScript topics, CSS flex box, CSS box shadow property,  from https://developer.mozilla.org/en-US/, https://www.w3schools.com/, https://www.udemy.com/course/the-web-developer-bootcamp/
+
+- Instructions how to improve Lighthouse  Performance score from https://blog.logrocket.com/9-tricks-eliminate-render-blocking-resources/#minifiy-css-javascript, https://blog.logrocket.com/9-tricks-eliminate-render-blocking-resources/#minifiy-css-javascript
 
 
-
-
-- The icons in The Game are are taken from [Font Awesome](https://fontawesome.com/)
+-  The icons in The Game are are taken from [Font Awesome](https://fontawesome.com/)
 -  Colours contrast to improve SEO https://colourcontrast.cc/, 
 
 ### Media
 
-No use of photos or images in the project.
+No use of photos or images in the project only screenshosts from the Rock Paper Scissors Lizard Spock Game.
 
 
 
